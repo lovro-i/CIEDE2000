@@ -13,7 +13,7 @@ print(CIEDE2000((50, 0, 0), (50.0000, -1, 2)))
 print(CIEDE2000((50, 2.5, 0), (73, 25, -18)))
 ```
 
-In order to use the function, you must first transform the image into L*a*b* color space (using OpenCV, for example):
+In order to use the function, you must first transform the image into CIE L\*a\*b\* color space (using OpenCV, for example):
 
 ```
 import cv2
